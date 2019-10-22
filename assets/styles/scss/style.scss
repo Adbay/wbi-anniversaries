@@ -1,0 +1,51 @@
+@import "settings";
+@import "components/includes";
+
+* {
+  overflow: hidden;
+}
+body {
+  background-color: #ffffff;
+  background-image: url("../media/background.jpg");
+  width: 1920px;
+  height: 1080px;
+  font-size: 60px;
+  color: #438f9b;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  text-align: center;
+  font-size: 90px;
+}
+
+.container {
+  padding: 70px;
+  padding-right: 90px;
+}
+
+#content {
+  position: relative;
+  text-align: left;
+  height: 904px;
+}
+
+#anniversary-list {
+  text-align: left;
+  position: absolute;
+  width: 25%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#anniversary-list span {
+  width: 50%;
+  display: inline-block;
+}
+
+.right {
+  text-align: right;
+}
