@@ -1,0 +1,14 @@
+section.anniversary-section{
+    padding: 5rem;
+    .grid-x.anniversary-grid{
+       h1{
+        font-weight: bold;
+        font-size: 5rem;
+        font-family: "Open Sans", sans-serif;
+        margin-bottom: 2rem;
+       }
+    }
+    #anniversary-list.grid-x.anniversary-list{
+        font-weight: bold;
+    }
+}

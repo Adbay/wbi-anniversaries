@@ -10,11 +10,11 @@ $(function() {
       for (var i = 0; i < data.length; i++) {
         if (data[i][0] == "") break;
         html +=
-          "<span>" +
+          "<div class=\"small-6 cell name text-right\">" +
           data[i][0] +
-          '</span><span class="right">' +
+          '</div><div class="small-6 cell years text-left">' +
           data[i][1] +
-          "</span>";
+          "</div>";
       }
       $("#anniversary-list").html(html);
     });
